@@ -1,4 +1,4 @@
-# Apache Zookeeper + Storm Cluster
+# Apache Zookeeper
 
 
 ### Info:
