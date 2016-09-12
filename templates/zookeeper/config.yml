@@ -1,0 +1,7 @@
+name: Apache Zookeeper
+description: |
+  Zookeeper cluster
+version: Zookeeper-3.4.6
+category: Clustering
+maintainer: "Pawan Kumar <monu.pawan@gmail.com>"
+minimum_rancher_version: v0.59.0
