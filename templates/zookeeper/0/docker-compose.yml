@@ -1,9 +1,5 @@
 zk:
   tty: true
-  labels: 
-    io.rancher.container.dns: true
-    io.rancher.scheduler.affinity:container_label_soft_ne: io.rancher.stack_service.name=$${stack_name}/$${service_name}
-    io.rancher.container.hostname_override: container_name
   image: 035824440926.dkr.ecr.us-east-1.amazonaws.com/nrt/zk-3.4.6
   restart: always
   command: bash /usr/local/zookeeper/bin/start-zookeeper.sh ${zk_scale}
